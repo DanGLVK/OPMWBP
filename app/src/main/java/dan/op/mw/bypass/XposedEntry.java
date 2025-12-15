@@ -22,7 +22,7 @@ public class XposedEntry implements IXposedHookLoadPackage{
                     XC_MethodReplacement.returnConstant(true)
             );
 
-            XposedBridge.log("[PocketStudioUnlock] x3.r whitelist bypassed");
+            XposedBridge.log("[PocketStudioUnlock] A15 whitelist bypassed");
 
         } catch (Throwable t) {
             XposedBridge.log("[PocketStudioUnlock] x3.r hook failed");
@@ -39,7 +39,7 @@ public class XposedEntry implements IXposedHookLoadPackage{
                     XC_MethodReplacement.returnConstant(true)
             );
 
-            XposedBridge.log("[PocketStudioUnlock] v1.r whitelist bypassed");
+            XposedBridge.log("[PocketStudioUnlock] A16 whitelist bypassed");
 
         } catch (Throwable t) {
             XposedBridge.log("[PocketStudioUnlock] v1.r hook failed");
